@@ -4,7 +4,7 @@ Programmes utilises: 1-IntelliJ
                      3-MySQL Workbench, MySQL shell et MySQL server
 Lien du fichier executable: https://dev.mysql.com/downloads/file/?id=509728
  
-Apres avoir avoir creer le projet java, il faudra placer le fichier executable(.jar) dans un fichier lib. Ensuite, il faut utilisez la librairie sql je java avec "import java.sql.*"
+Apres avoir avoir creer le projet java, il faudra placer le fichier executable(.jar) dans un fichier lib. Ensuite, il faut utilisez la librairie sql de java avec "import java.sql.*"
 Ensuite ecrire le code dans la fonction main. 
 
 1- On commence par relier notre projet java a notre base de donnees. La variable est de type "Connection", on utilise la methode "getConnection" de "DriverManager" tout en specifiant l'url de la bdd avec son nom, le username et le mot de passe.
