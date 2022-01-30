@@ -5,7 +5,6 @@ public class My_JDBC {
             //1-Connect to a DB
             Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","root");
             //2- Write statements to insert into table
-//            Statement firststmt = myConn.createStatement();
 //            String query = "insert into students(idStudents,last_name, first_name,notes)"+"values(?,?,?,?)";
 //
 //            PreparedStatement preparedStmt = myConn.prepareStatement(query);
